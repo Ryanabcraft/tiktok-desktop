@@ -1,0 +1,12 @@
+__pycache__/
+*.spec
+build/
+dist_py/
+dist/
+dist_installer/
+node_modules/
+*.log
+main.js
+package.json
+package-lock.json
+tiktok-site/
