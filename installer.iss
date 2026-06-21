@@ -1,10 +1,10 @@
 [Setup]
 AppName=TikTok Desktop
-AppVersion=1.0.0
+AppVersion=1.1.0
 AppPublisher=Ryanabcraft
 AppPublisherURL=https://github.com/Ryanabcraft/tiktok-desktop
 AppSupportURL=https://github.com/Ryanabcraft/tiktok-desktop/issues
-DefaultDirName={autopf}\TikTok Desktop
+DefaultDirName={localappdata}\TikTok Desktop
 DefaultGroupName=TikTok Desktop
 UninstallDisplayIcon={app}\TikTok.exe
 UninstallDisplayName=TikTok Desktop
@@ -12,7 +12,7 @@ OutputDir=dist_installer
 OutputBaseFilename=TikTok-Setup
 Compression=lzma2
 SolidCompression=yes
-PrivilegesRequired=admin
+PrivilegesRequired=lowest
 
 [Languages]
 Name: "brazilianportuguese"; MessagesFile: "compiler:Languages\BrazilianPortuguese.isl"
