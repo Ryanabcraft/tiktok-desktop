@@ -21,6 +21,9 @@ jobs:
       - name: Build .exe
         run: pip install pillow; pyinstaller --onefile --windowed --name="TikTok" --icon=icon.ico --hidden-import=browser_launcher tiktok_app.py
 
+      - name: Prepare dist_py
+        run: New-Item -ItemType Directory -Path dist_py -Force; Copy-Item dist/TikTok.exe dist_py/TikTok.exe
+
       - name: Install Inno Setup
         run: choco install innosetup --no-progress
 
