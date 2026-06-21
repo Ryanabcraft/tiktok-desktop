@@ -25,7 +25,7 @@ App desktop leve que abre o [TikTok](https://www.tiktok.com) em uma janela limpa
 ### Linux / macOS
 ```bash
 # Baixe o script
-wget https://raw.githubusercontent.com/Ryanabcraft/tiktok-desktop/main/tiktok_app.py
+wget https://raw.githubusercontent.com/Ryanabcraft/tiktok-desktop/master/tiktok_app.py
 
 # Execute
 python3 tiktok_app.py
