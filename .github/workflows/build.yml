@@ -19,7 +19,7 @@ jobs:
         run: pip install pyinstaller
 
       - name: Build .exe
-        run: pyinstaller --onefile --windowed --name="TikTok" --icon=icon.png --hidden-import=browser_launcher tiktok_app.py
+        run: pip install pillow; pyinstaller --onefile --windowed --name="TikTok" --icon=icon.ico --hidden-import=browser_launcher tiktok_app.py
 
       - name: Install Inno Setup
         run: choco install innosetup --no-progress
